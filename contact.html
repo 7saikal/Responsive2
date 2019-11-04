@@ -1,60 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-
 <head>
-    <!-- Document responsive across devices. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Document's character set. -->
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <!-- Linking CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Saikal Asylbekova</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
 <body>
 
-    <div class="header-container">
-        <header>Saikal Asylbekova</header>
+<div class="wrapper">
 
-        <nav>
-            <ul>
-                <li class="border"><a href="index.html">About</a></li>
-                <li class="border"><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Saikal Asylbekova</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
-    <div class="main-container">
-        <section id="contact-form">
-            <h2>Contact</h2>
-            <form id="contact" action="login.php" method="post">
-                <label for="name">Saikal Asylbekova</label><br>
-                <input id="name" type="text" autocomplete="username" placeholder="Saikal Asylbekova" required><br>
-                <label for="email">email</label><br>
-                <input id="email" type="email" name="email" autocomplete="email" placeholder="7saikal@gmail.com"
-                    required><br>
-                <label for="textfield">Message</label><br>
-                <textarea id="textfield" rows="7"></textarea><br>
-                <button class="button" type="submit" name="submit">Submit</button>
-            </form>
-        </section>
+  <main class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Tony Robbins" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
         <section id="social-links">
-            <h3>Connect with Me</h3>
+
+
+    <h2>Connect with Me</h2> 
             <ul>
-                <li><a href="https://github.com/7saikal"><img class="icon" src="assets/images/github-128.png"
+                <li><a href="https://github.com/7saikal"><img src="assets/Images/github.png"
                             alt="GitHub Profile"></a></li>
-                <li><a href="https://www.linkedin.com/in/saikal-asylbekova-042932124"><img class="icon"
-                            src="assets/images/square-linkedin-128.png" alt="LinkedIn Profile"></a></li>
+                <li><a href ="https://www.linkedin.com/in/saikal-asylbekova-042932124" ><img src="assets/Images/linkedin.png"
+                             alt="LinkedIn Profile"></a></li>
                 
             </ul>
         </section>
     </div>
+      </form>
 
-    <body>
+    </section>
 
-        <html>
-                
+  </main>
+  <div class="push"></div>
+</div>
+
+  <footer>
+    <div class="container">
+    </div>
+  </footer>
+</body>
+</html>
+                 
                 
