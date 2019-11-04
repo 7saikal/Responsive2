@@ -334,6 +334,10 @@ main {
 
 /* contact page */
 
+#contact-form {
+  margin-right:20%;
+  margin-left: 20%;
+}
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -384,6 +388,27 @@ input[type=submit] {
   /* Visual */
   border: 0 none;
 
+}
+.icon-display{
+  align-items: flex-end;
+  display: inline-flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.icon-list{
+  align-self: auto;
+}
+
+.icon-container{
+  display: inline-flex;
+
+height: 50px;
+width: 50px;
+}
+.icon {
+  align-self: auto;
+  height: auto;
+  width: 100%;
 }
 @media screen and (max-width: 980px, 768px and 640px) {
   body {
