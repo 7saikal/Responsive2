@@ -1,75 +1,71 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+
+<html lang="en”>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | Saikal Asylbekova</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <title>Saikal's Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
 </head>
 <body>
 
-<div class="wrapper">
+<div class="row" id="header">
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Saikal Asylbekova</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+    <div class="col-4" id="brand">
+        <h1>Saikal Asylbekova</h1>
     </div>
-  </header>
 
-  <main class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
-
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Tony Robbins" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-        <section id="social-links">
-
-
-    <h2>Connect with Me</h2> 
-            <ul>
-                <li><a href="https://github.com/7saikal"><img src="assets/Images/github.png"
-                            alt="GitHub Profile"></a></li>
-                <li><a href ="https://www.linkedin.com/in/saikal-asylbekova-042932124" ><img src="assets/Images/linkedin.png"
-                             alt="LinkedIn Profile"></a></li>
-                
-            </ul>
-        </section>
+    <div class="col-8" id="nav">
+        <a href="index.html"><span>About</span></a>
+        <span>|</span>
+        <a href="contact.html"><span>Contact</span></a>
+        <span>|</span>
+        <a href="portfolio.html"><span>Portfolio</span></a>
     </div>
-      </form>
-
-    </section>
-
-  </main>
-  <div class="push"></div>
 </div>
 
-  <footer>
-    <div class="container">
+<div class="row">
+    <div class="col-8">
+        <div id="contact">
+            <h2>Contact</h2>
+            <hr>
+			<form action="#">
+                <span>Name</span><br>
+                <input id="name" type="text" name="name" value="John Smith">
+                <br>
+                <span>Email</span><br>
+                <input id="email" type="text" name="email" value="example@gmail.com">
+                <br>
+                <span>Message</span><br>
+                <input id="message" type="text">
+                <br>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
     </div>
-  </footer>
-</body>
-</html>
-                 
-                
+
+    <div class="col-4">
+        <div id="connect">
+            <h3>Connect with Me</h3>
+            <hr>
+            <a href="https://github.com/7saikal" target="_blank"><img src="assets/images/github.png" height="51"/></a>
+            <a href="https://www.linkedin.com/in/saikal-asylbekova-042932124/" target="_blank"><img src="assets/images/linkedin.png" height="51"/></a>
+            
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12" id="footer">     
+      <p>& copy Copyright 2019 Saikal Asylbekova</p>
+      </div> 
+    </div> 
+   
+   </body>
+   </html> 
